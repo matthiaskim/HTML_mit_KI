@@ -8,5 +8,30 @@
 <body>
     <h1>Willkommen auf meiner GitHub Webseite!</h1>
     <p>Dies ist eine einfache statische Webseite, die mit GitHub Pages veröffentlicht wurde.</p>
+
+<section class="kontaktformular" id="kontaktformular">
+  <h2 class="visually-hidden">Kontaktformular</h2>
+  <p>Mit dem folgenden Formular können Sie uns eine Nachricht schicken. Bitte füllen Sie alle Felder aus.</p>
+  <form action="https://submit.formbricks.com/f/cm5roy95w0002mp03xrxs9x3d" method="post">
+    <div>
+      <label for="besuchername">Dein Name: </label>
+      <input type="text" id="besuchername" name="name" required>
+    </div>
+    <div>
+      <label for="besuchermail">Deine E-Mail: </label>
+      <input type="email" id="besuchermail" name="email" required>
+    </div>
+    <div>
+      <label for="nachricht">Deine Nachricht: </label>
+      <textarea id="nachricht" name="message" cols="30" rows="5" required></textarea>
+    </div>
+    <div>
+      <input type="checkbox" id="dsgvo" name="dsgvo" required>
+      <label for="dsgvo">Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten durch diese Website einverstanden</label> 
+      (<a href="#" target="_blank" rel="noreferrer noopener">Datenschutzerklärung</a>).
+    </div>
+    <button type="submit">Abschicken</button>
+  </form>
+</section>
 </body>
 </html>
