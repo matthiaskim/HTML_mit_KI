@@ -1,0 +1,25 @@
+.kontaktformular form {
+    max-width: 25rem;
+    background-color: var(--grau-hell); 
+    padding: 1rem; 
+    margin-bottom: 3rem;
+}
+.kontaktformular div {
+    margin-bottom: 1rem; 
+}
+.kontaktformular label { 
+    cursor: pointer; 
+    display: block; 
+}      
+.kontaktformular input[type="checkbox"] + label {
+    display: inline;
+}
+.kontaktformular button {
+    font-size: inherit; 
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--akzentfarbe);
+    color: var(--basisfarbe); 
+    padding: 0.5rem; 
+    border: none;   
+}
